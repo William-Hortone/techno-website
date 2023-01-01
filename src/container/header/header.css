@@ -13,10 +13,11 @@
 .gpt3__header-content h1{
     font-family: var(--font-family);
     font-weight: 800;
-    font-size: 20px;
-    line-height: 27px;
+    /* font-size: 20px; */
+    /* line-height: 37px; */
     color: var(--color-text);
     margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 .gpt3__header-content__input{
     width: 100%;
@@ -51,9 +52,14 @@
     cursor: pointer;
     outline: none;
     padding: 0 1rem;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-radius: 5px;
+    border: solid 1px rgba(0, 0, 0, 0.507) ;
+    /* border-bottom-right-radius: 5px; */
 
+}
+.gpt3__header-content__input button:hover{
+    background:#bb2604;
+   
 }
 .gpt3__header-content-people{
     width: 100%;
